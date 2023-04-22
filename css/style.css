@@ -1,5 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Handwriting", cursive;
+}
 body {
   background: #000;
   overflow: hidden;
   margin: 0;
+}
+.container{
+  text-align: center;
+   position: fixed;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateX(0deg) rotateY(0deg); 
+  transition: transform 0.3s ease-out;
+  transform-origin: center;
+  perspective: 1000px;
+  
+
+   
+}
+.container span{
+  position: absolute;
+  transform-origin: center;
+  text-transform: uppercase;
+  color: white;
+  display: block;
+ 
+}
+
+.text{
+  font-size: 40px;
+
 }
