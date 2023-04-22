@@ -17,7 +17,9 @@ body {
   transition: transform 0.3s ease-out;
   transform-origin: center;
   perspective: 1000px;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
    
 }
